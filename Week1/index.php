@@ -1,7 +1,4 @@
-<?php
-    $myArray = ["Pat, Jack, Bill"];
-    $myArray = $myArray;
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,8 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        echo $myArray;
-    ?>
+
+        <?php
+
+            $animals = array(
+                "Lion",
+                "Leopard",
+                "Penguin",
+                "Moose",
+                "Racoon",
+            );
+
+            foreach($animals as $animals){
+                echo $animals . "<br>";
+            }
+        ?>
+
+
 </body>
 </html>
