@@ -1,11 +1,15 @@
 <?php
     $animals = ['dog', 'cat'];
 
-    function dd($data)
+    function dd($age)
     {
-        echo '<pre>';
-        die(var_dump($data));
-        echo '</pre>';
+        if($age >= 21)
+        {
+            echo "You are 21! Welcome";
+            
+        }else{
+            echo "Not old enough";
+        }
     }
 
 ?>
@@ -18,23 +22,10 @@
     <title>Document</title>
 </head>
 <body>
-    <input id="age" value='12'> <button id='btn'>Submit</button>
-    
-    <script>
-        var age = 12;
-        var btn;
 
-
-
-        if(age < 21)
-        {
-            
-            
-        }
-    </script>
-        <?php
-                dd($animals)
-        ?>
+    <?php
+        dd(23);
+    ?>
 
 
 </body>
