@@ -8,7 +8,7 @@
             echo "You are 21! Welcome";
             
         }else{
-            echo "Not old enough";
+            echo "Not old enough! Sorry";
         }
     }
 
