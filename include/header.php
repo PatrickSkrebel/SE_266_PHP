@@ -88,9 +88,8 @@ li {
 <body>
 
 <div class="navbar">
-  
+<a href="../Site/Index.php">Home</a>
   <div class="dropdown">
-  <a href="../Site/Index.php">Home</a>
     <button class="dropbtn" onclick="dropDown()">Assignments
       <i class="fa fa-caret-down"></i>
     </button>
