@@ -17,7 +17,7 @@
     <h2>Assignment OverView</h2>
 
     <ul>
-        <li><a href="../week1/fizzBuzz.php">Week 1</li>
+        <li><a href="../Week1/fizzBuzz.php">Week 1</li>
         <li><a href="../week2/index.php">Week 2</li>
         <li><a href="../week3/index.php">Week 3</li>
         <li><a href="../week4/index.php">Week 4</li>
