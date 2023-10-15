@@ -94,22 +94,22 @@ li {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content" id="myDropdown">
-      <a href="../week1/index.php">Assignment 1</a>
-      <a href="../week2/index.php">Assignment 2</a>
-      <a href="../week3/index.php">Assignment 3</a>
-      <a href="../week4/index.php">Assignment 4</a>
-      <a href="../week5/index.php">Assignment 5</a>
-      <a href="../week6/index.php">Assignment 6</a>
-      <a href="../week7/index.php">Assignment 7</a>
-      <a href="../week8/index.php">Assignment 8</a>
-      <a href="../week9/index.php">Assignment 9</a>
-      <a href="../week10/index.php">Assignment 10</a> 
+      <a href="../Week1/index.php">Assignment 1</a>
+      <a href="../Week2/index.php">Assignment 2</a>
+      <a href="../Week3/index.php">Assignment 3</a>
+      <a href="../Week4/index.php">Assignment 4</a>
+      <a href="../Week5/index.php">Assignment 5</a>
+      <a href="../Week6/index.php">Assignment 6</a>
+      <a href="../Week7/index.php">Assignment 7</a>
+      <a href="../Week8/index.php">Assignment 8</a>
+      <a href="../Week9/index.php">Assignment 9</a>
+      <a href="../Week10/index.php">Assignment 10</a> 
     </div>
   </div> 
-  <a href="../site/heroku_resources.php">Heroku Resources</a>
-  <a href="../site/php_resources.php">PHP Resources</a>
-  <a href="../site/git_resources.php">Git Resources</a>
-  <a href="https://github.com/NEIT-DRR/se266-example-code">My GitHub Repo</a>
+  <a href="../Site/heroku_resources.php">Heroku Resources</a>
+  <a href="../Site/php_resources.php">PHP Resources</a>
+  <a href="../Site/git_resources.php">Git Resources</a>
+  <a href="https://github.com/PatrickSkrebel/SE_266_PHP/tree/main">My GitHub Repo</a>
 </div>
 
 

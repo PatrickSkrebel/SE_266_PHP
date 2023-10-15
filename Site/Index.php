@@ -1,4 +1,4 @@
-<?php include __DIR__ . '/../include/header.php'; ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+<?php include __DIR__ . '/../include/header.php'; ?>
+
     <h1>PHP, MySQL, and More! - Patrick Skrebel</h1>
     <p>
     Welcome to my PHP and MySQL page. You can find an overview of all my working PHP projects along with my code.
