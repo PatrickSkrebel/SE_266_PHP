@@ -31,9 +31,7 @@
         <li><a href="../Week10/index.php">Week 10</li>
     </ul>
 
-    <footer>
     <?php include __DIR__ . '/../include/footer.php'; ?>
-</footer>
 
 </body>
 </html>
