@@ -27,6 +27,7 @@
     <title>Document</title>
 </head>
 <body>
+<?php include __DIR__ . '/../include/header.php'; ?>
     <h1>fizzBuzz</h1>
     
     <?php

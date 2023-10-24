@@ -94,9 +94,9 @@ li {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content" id="myDropdown">
-      <a href="../Week1/index.php">Assignment 1</a>
-      <a href="../Week2/index.php">Assignment 2</a>
-      <a href="../Week3/index.php">Assignment 3</a>
+      <a href="../Week1/fizzBuzz.php">Assignment 1 - Fizz Buzz</a>
+      <a href="../Week2/index.php">Assignment 2 - Form Validation</a>
+      <a href="../Week3/index.php">Assignment 3 - ATM</a>
       <a href="../Week4/index.php">Assignment 4</a>
       <a href="../Week5/index.php">Assignment 5</a>
       <a href="../Week6/index.php">Assignment 6</a>

@@ -88,6 +88,7 @@ function test_input($data) {
     </style>
 </head>
 <body>
+<?php include __DIR__ . '/../include/header.php'; ?>
 <h2>Person Form Validation</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="fName" value="<?php echo $fName;?>">
