@@ -20,9 +20,9 @@
 
     <ul>
         <li><a href="../Week1/fizzBuzz.php">Week 1</li>
-        <li><a href="../Week2/index.php">Week 2</li>
-        <li><a href="../Week3/index.php">Week 3</li>
-        <li><a href="../Week4/index.php">Week 4</li>
+        <li><a href="../Week2/index.php">Week 2 - </li>
+        <li><a href="../Week3/index.php">Week 3 - ATM</li>
+        <li><a href="../Week4/People/view_people.php">Week 4 - Patients</li>
         <li><a href="../Week5/index.php">Week 5</li>
         <li><a href="../Week6/index.php">Week 6</li>
         <li><a href="../Week7/index.php">Week 7</li>

@@ -97,7 +97,7 @@ li {
       <a href="../Week1/fizzBuzz.php">Assignment 1 - Fizz Buzz</a>
       <a href="../Week2/index.php">Assignment 2 - Form Validation</a>
       <a href="../Week3/index.php">Assignment 3 - ATM</a>
-      <a href="../Week4/index.php">Assignment 4</a>
+      <a href="../Week4/People/view_people.php">Assignment 4 - Patient Form</a>
       <a href="../Week5/index.php">Assignment 5</a>
       <a href="../Week6/index.php">Assignment 6</a>
       <a href="../Week7/index.php">Assignment 7</a>

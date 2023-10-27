@@ -7,7 +7,7 @@
 
 <html lang="en">
 <head>
-  <title>View People Forms</title> 
+  <title>View Patients</title> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
 
         <br />
         <!-- ---------------------- -->
-        <a href="add_Person.php"> Add Person</a>
+        <a href="add_people.php">Add Person</a>
          <!-- Begin table of teams -->
          <table class="table table-striped">
         <thead>
@@ -39,15 +39,15 @@
         </thead>
         <tbody>
 
-        <?php foreach ($teams as $t): ?>
+        <?php foreach ($people as $p): ?>
             <tr>
-                <td><?= $t['id'];?></td>
-                <td><?= $t['firstName'];?></td>
-                <td><?= $t['lastName'];?></td>
-                <td><?= $t['birthdate'];?></td>
-                <td><?= $t['height'];?></td>
-                <td><?= $t['weight'];?></td>
-                <td><?= $t['married'];?></td>
+                <td><?= $p['id'];?></td>
+                <td><?= $p['firstName'];?></td>
+                <td><?= $p['lastName'];?></td>
+                <td><?= $p['birthdate'];?></td>
+                <td><?= $p['height'];?></td>
+                <td><?= $p['weight'];?></td>
+                <td><?= $p['married'];?></td>
             </tr>
         <?php endforeach; ?>
         
