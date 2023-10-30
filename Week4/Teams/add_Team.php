@@ -10,7 +10,7 @@
     ini_set('display_errors', 1);
     ini_set('display_startup_errors',1);
     error_reporting(E_ALL);
-    include __DIR__ . "/model/model_team.php";
+    include __DIR__ . "/model/model_teams.php";
 
     $error ="";
     $teamName = "";
@@ -56,7 +56,7 @@
             <li><?php echo "Team Name: $teamName"; ?></li>
             <li><?php echo "Diviison: $division"; ?><li>
         </ul>
-        <a href="view_team.php">View All NFL Teams</a>
+        <a href="view_teams.php">View All NFL Teams</a>
     <?php
         endif;
     ?>
