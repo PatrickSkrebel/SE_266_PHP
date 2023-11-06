@@ -35,6 +35,7 @@
                 <th>Height</th>
                 <th>Weight</th>
                 <th>Married</th>
+                <th>Edit</th>
             </tr>
         </thead>
         <tbody>
@@ -48,13 +49,14 @@
                 <td><?= $p['height'];?></td>
                 <td><?= $p['weight'];?></td>
                 <td><?= $p['married'];?></td>
+                <td><a href="edit_people.php?action=Update&teamId=<?= $p['id']; ?>">Edit</a></td>        
             </tr>
         <?php endforeach; ?>
         
         </table>
 
         </br>
-      
+        <a href="edit_people.php?action=Add">Add New Team</a>
     </div>
     </div>
 </body>

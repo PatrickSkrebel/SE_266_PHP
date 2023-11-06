@@ -42,28 +42,59 @@
         
         return ($results);
     }
-   
-    // // Alternative style to add team records database.
-    // function addTeam2 ($firstName, $lastName, $birthdate, $height, $weight, $married) {
-    //     global $db;
-    //     $results = "Not added";
-
-    //     $stmt = $db->prepare("INSERT INTO teams SET teamName = :team, division = :division");
-       
-    //     $stmt->bindValue(':team', $team);
-    //     $stmt->bindValue(':division', $division);
-       
-    //     if ($stmt->execute() && $stmt->rowCount() > 0) {
-    //         $results = 'Data Added';
-    //     }
-       
-    //     $stmt->closeCursor();
-       
-    //     return ($results);
-    // }
-   
-    //   $result = addTeam2 ('Ajax', 'Eredivisie');
-    //   echo $result;
     
+    function updatePatient ($id, $firstName, $lastName, $married, $birthdate, $height, $weight) {
+        global $db;
+
+        $results = "";
+        $sql = "UPDATE people SET firstName = :fN, lastName = :lN, birthdate = :bd, height = :h, weight = :w, married = :m WHERE id=:id ";
+        $stmt = $db->prepare($sql);
+
+        $stmt->bindValue(':id', $id);
+        $stmt->bindValue(':fN', $firstName);
+        $stmt->bindValue(':lN', $lastName);
+        $stmt->bindValue(':bd', $birthdate);
+        $stmt->bindValue(':h', $height);
+        $stmt->bindValue(':w', $weight);
+        $stmt->bindValue(':m', $married);
+
+      
+        if ($stmt->execute() && $stmt->rowCount() > 0) {
+            $results = 'Data Updated';
+        }
+        
+        return ($results);
+    }
+
+    function deletePatient ($id) {
+        global $db;
+        
+        $results = "Data was not deleted";
+        $stmt = $db->prepare("DELETE FROM people WHERE id=:id");
+        
+        $stmt->bindValue(':id', $id);
+            
+        if ($stmt->execute() && $stmt->rowCount() > 0) {
+            $results = 'Data Deleted';
+        }
+        
+        return ($results);
+    }
+
+    function getPerson($id){
+
+        global $db;
+        
+        $result = [];
+        $stmt = $db->prepare("SELECT * FROM people WHERE id=:id");
+        $stmt->bindValue(':id', $id);
+       
+        if ( $stmt->execute() && $stmt->rowCount() > 0 ) {
+             $result = $stmt->fetch(PDO::FETCH_ASSOC);
+                        
+         }
+         
+         return ($result);
+    }
 
 ?>
